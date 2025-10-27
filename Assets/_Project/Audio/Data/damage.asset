@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a05ef89d30f2cec028994270f1cb92a0, type: 3}
+  m_Name: damage
+  m_EditorClassIdentifier: Assembly-CSharp::SoundsSO
+  soundName: damage
+  clips:
+  - {fileID: 8300000, guid: eccf6fd8eecd16345b9cc1fc4e94a0f0, type: 3}
+  - {fileID: 8300000, guid: 744d02531a8fbe878a3c7915755ef8c0, type: 3}
+  - {fileID: 8300000, guid: d6a8e3f3bd3573816bb5057f65db6848, type: 3}
+  - {fileID: 8300000, guid: 942202f4df90b2de58273d894400e092, type: 3}
+  - {fileID: 8300000, guid: 64d527764b4d3a2dfb7d3e1d7e1e6b88, type: 3}
+  - {fileID: 8300000, guid: ad50bdd71a87111b39f108e7df076014, type: 3}
+  - {fileID: 8300000, guid: 2d85654e980e8beda840eb0a8b90d42d, type: 3}
+  volume: 0.25
+  pitch: 1
+  pitchVariation: 0.05
+  volumeVariation: 0.05
+  isMusic: 0
+  loop: 0
