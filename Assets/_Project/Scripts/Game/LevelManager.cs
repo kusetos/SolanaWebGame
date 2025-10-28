@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Events;
-
+using IDosGames;
+using UnityEngine.UI;
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance { get; private set; }
@@ -11,6 +12,7 @@ public class LevelManager : MonoBehaviour
     public UnityEvent onLevelRestart;
     public UnityEvent onLevelComplete;
     public UnityEvent onPlayerHited;
+    public Text balance; 
 
     void Awake()
     {
@@ -46,6 +48,8 @@ public class LevelManager : MonoBehaviour
         Debug.Log("[LevelManager] Level complete!");
         FadePanel.Instance.FadeIn(() => Bootstrapper.Instance.LoadNextScene());
 
+        //ClaimRewardSystem.ClaimCoinReward(1000, 200);
+        //Debug.Log("Balance: " + IGSUserData.Currency.CurrencyData);
         onLevelComplete?.Invoke();
     }
 

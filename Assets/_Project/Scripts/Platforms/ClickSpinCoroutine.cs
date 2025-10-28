@@ -19,6 +19,7 @@ public class ClickSpinCoroutine : MonoBehaviour
     {
         if (!isSpinning)
         {
+            SoundManager.Instance.Play("bubble");
             StartCoroutine(Spin());
             action?.Invoke();
         }

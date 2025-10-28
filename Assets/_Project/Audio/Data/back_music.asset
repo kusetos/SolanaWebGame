@@ -15,9 +15,9 @@ MonoBehaviour:
   soundName: back_music
   clips:
   - {fileID: 8300000, guid: a719ba2946f08685f862487f81113e58, type: 3}
-  volume: 0.5
+  volume: 0.394
   pitch: 1
   pitchVariation: 0.05
   volumeVariation: 0.05
   isMusic: 1
-  loop: 0
+  loop: 1

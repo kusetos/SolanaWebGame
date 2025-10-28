@@ -127,6 +127,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 550f7a8779ff8e886996dcb70ac40a9f, type: 2}
   - {fileID: 11400000, guid: 887c01bd7a9547af381b704a2efd31f8, type: 2}
   - {fileID: 11400000, guid: c3130f651e890ec149d9c1b8cf21ea22, type: 2}
+  - {fileID: 11400000, guid: 7e35ddb410c2618cb919fd9d174d6cea, type: 2}
+  - {fileID: 11400000, guid: 02d202d037e3b0427a10113495eb790b, type: 2}
+  - {fileID: 11400000, guid: eeac397680a4fbe6dbe0f2c1b1f5eab9, type: 2}
 --- !u!1 &1320886002454025135
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,8 +342,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -56, y: 52.752}
-  m_SizeDelta: {x: 454.2426, y: 105.5034}
+  m_AnchoredPosition: {x: 7, y: 52.752}
+  m_SizeDelta: {x: 734.11, y: 105.5034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4653018527799925876
 CanvasRenderer:
@@ -370,7 +373,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Roby
+  m_text: "Roby \u0415\u0440 \u0418\u0428"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 08dcb00d89db0ee4f959295b5c5f2d03, type: 2}
   m_sharedMaterial: {fileID: -4607859183153467862, guid: 08dcb00d89db0ee4f959295b5c5f2d03, type: 2}
@@ -397,8 +400,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
-  m_fontSizeBase: 150
+  m_fontSize: 120
+  m_fontSizeBase: 120
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -435,7 +438,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -80.18628, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -475,7 +478,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -107, y: 7}
+  m_AnchoredPosition: {x: 7, y: 19}
   m_SizeDelta: {x: 733.548, y: 177.515}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &256726777676718430
@@ -896,17 +899,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8966091438308009901}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.70675683, w: 0.7074566}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.9710772, y: 3.5496, z: 1}
+  m_LocalScale: {x: 9.788706, y: 5.759226, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6687206452121524746}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.943}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -241, y: -6}
-  m_SizeDelta: {x: 40, y: 57}
+  m_AnchoredPosition: {x: -236, y: -4}
+  m_SizeDelta: {x: 32.7792, y: 59.999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7448553850994949962
 CanvasRenderer:
@@ -929,14 +932,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6084906, g: 1, b: 0.7249741, a: 1}
+  m_Color: {r: 0.9245283, g: 0.77958345, b: 0.3532396, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d6a934ad2cef0894a8496cf250796124, type: 3}
+  m_Sprite: {fileID: -1001218858, guid: 4594511837a2dce4d990c17bce98e1fb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
