@@ -1,4 +1,4 @@
-# 🌌 Arman’s Journey
+# The Sin Of The Fallen Angel
 
 **Educational Web3 Adventure Game on Solana**  
 _An interactive RPG where learning, exploration, and ownership meet blockchain technology._
