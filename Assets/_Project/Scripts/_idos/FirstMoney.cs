@@ -9,7 +9,7 @@ public class FirstMoney : MonoBehaviour
     void Start()
     {
         SoundManager.Instance.Play("cave");
-        ClaimRewardSystem.ClaimTokenReward(tokenReward, eventPoints);
+        ClaimRewardSystem.ClaimCoinReward(tokenReward, eventPoints);
     }
 
     // Update is called once per frame

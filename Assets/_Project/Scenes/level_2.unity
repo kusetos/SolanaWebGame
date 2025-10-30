@@ -204,8 +204,8 @@ Transform:
   m_GameObject: {fileID: 198673038}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.32, y: -2.2916, z: 0}
-  m_LocalScale: {x: 1, y: 7.2125, z: 1}
+  m_LocalPosition: {x: 16.88, y: -1.61, z: 0}
+  m_LocalScale: {x: 2.55, y: 2.0735936, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1534,7 +1534,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5987031557170293051, guid: 909ec6e214b56e64182c2ade4bea7b7e, type: 3}
       propertyPath: dialogue.dialogueLines.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5987031557170293051, guid: 909ec6e214b56e64182c2ade4bea7b7e, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[0].line
@@ -1810,6 +1810,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2291727623240244309, guid: fe2d8c93a9bfcc92fa43883dceb5562a, type: 3}
+      propertyPath: outlineMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 9750031ec75236298a98df363618876c, type: 2}
     - target: {fileID: 4864227964303554578, guid: fe2d8c93a9bfcc92fa43883dceb5562a, type: 3}
       propertyPath: m_LocalScale.y
       value: 8.258412
